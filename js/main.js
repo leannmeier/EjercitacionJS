@@ -65,3 +65,17 @@ typeof null // "Object" (2)
 typeof alert // "function" (3)
 
 //El operador 'typeof' devuelve una cadena con el nombre del tipo de dato que contiene
+
+//Capitulo 2.6 - Interaction: alert, prompt & confirm
+
+//alert()
+alert("Hello"); //Ya sabemos que hace
+
+//prompt()
+let result = prompt(title); //muestra una ventana modal con un msj de texto, un campo de entrada
+                                      // para el visitante y los botones aceptar/cancelar
+// title -> texto para mostrar al visitante
+// default -> (opcional). EL valor inicial del campo de entrada
+
+let age3 = prompt('How old are you?',100);
+alert(`You are ${age} years old!`); 
